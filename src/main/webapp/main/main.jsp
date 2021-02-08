@@ -129,7 +129,9 @@
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                             <div class="panel-body">
-                                <button class="btn btn-danger">反馈信息</button>
+                                <button class="btn btn-danger">
+                                <a href="javascript:$('#mainId').load('${path}/feedback/showFeedback.jsp')">反馈信息</a>
+                                </button>
                             </div>
                         </div>
                     </div>
